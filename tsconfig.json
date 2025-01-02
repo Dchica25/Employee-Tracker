@@ -107,10 +107,10 @@
     /* Completeness */
     // "skipDefaultLibCheck": true,                      /* Skip type checking .d.ts files that are included with TypeScript. */
     "skipLibCheck": true,  
-    "outDir": "./dist",
-    "rootDir": "./src"
+    "outDir": "db/dist",
+    "rootDir": "db/src"
   },
   "include": [
-    "src/**/*.ts"                            /* Skip type checking all .d.ts files. */
-, "src/index.ts"  ]
+      "db/src/**/*.ts"
+     ]
 }

@@ -4,20 +4,24 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "start": "node db/dist/index.js",
+  "start:dev": "nodemon db/dist/index.js",
+  "test": "echo \"Error: no test specified\" && exit 1"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.4.7",
-    "inquirer": "^8.2.4",
+    "inquirer": "^8.2.6",
     "pg": "^8.13.1"
   },
   "devDependencies": {
     "@types/inquirer": "^9.0.7",
     "@types/node": "^22.10.2",
     "@types/pg": "^8.11.10",
+    "nodemon": "^3.0.0",
+    "ts-node": "^10.9.2",
     "typescript": "^5.7.2"
   }
 }
